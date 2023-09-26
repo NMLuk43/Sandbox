@@ -1,0 +1,49 @@
+:root {
+    --main--blue: #052941;
+    --secondary--green: #DBF226;
+    --hyperlink: #45C4AF;
+    --type: #4A4A4A;
+    --other--blue: #005B52;
+    --white: #ffffff;
+}
+
+/* type colors */
+
+body {
+    color: var(--type);
+}
+
+h1 {
+    color: var(--white);
+}
+
+h2 {
+    color: var(--main--blue);
+}
+
+h3 {
+    color: var(--other--blue);
+}
+
+.hero-home__subtitle {
+    color: var(--white);
+}
+
+.button-a {
+    color: var(--other--blue);
+}
+
+.nav__item {
+    color: var(--white);
+}
+
+
+/* footer adjustments */
+
+footer p {
+    color: var(--white);
+}
+
+footer h3 {
+    color: var(--white);
+}

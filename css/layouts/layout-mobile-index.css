@@ -1,0 +1,68 @@
+/* hidden items */
+.img-desktop, .img-tablet {
+    display: none;
+}
+/* displayed items */
+
+.img-mobile {
+    display: flex;
+}
+
+/* layout */
+
+header {
+    background-image: url("../../imgs/hero-home-mobile.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+main {
+    margin-inline: auto;
+    max-width: var(--width--mobile);
+}
+
+.hero-home {
+    padding: 6.5rem 0 20rem 0;
+    margin: 0 2.5rem 0 2.5rem;
+}
+
+.hero-home__inner {
+    max-width: var(--width--mobile);
+    margin-inline: auto;
+}
+
+h1 {
+    padding-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 3.5rem;
+}
+
+.img {
+    margin-inline: auto;
+    margin-top: 2.5rem;
+}
+
+.button-a {
+    margin-inline: auto;
+}
+
+.recent-reviews__review {
+    max-width: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.techtreat-features__copy p {
+    max-width: 19rem;
+    margin-inline: auto;
+}

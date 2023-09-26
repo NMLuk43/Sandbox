@@ -1,0 +1,30 @@
+/* index */
+@import url("layouts/layout-mobile-index.css");
+@import url("layouts/layout-tablet-index.css");
+@import url("layouts/layout-desktop-index.css");
+
+/* i13r */
+@import url("layouts/layout-mobile-i13r.css");
+@import url("layouts/layout-tablet-i13r.css");
+@import url("layouts/layout-desktop-i13r.css");
+
+/* tech-news */
+@import url("layouts/layout-mobile-tech-news.css");
+@import url("layouts/layout-tablet-tech-news.css");
+@import url("layouts/layout-desktop-tech-news.css");
+
+
+
+:root {
+    --width--mobile: 32.5rem;
+    --width--tablet: 65rem;
+    --width--desktop: 101.2rem;
+}
+
+p {
+    margin-top: 1.2rem;
+}
+
+section {
+    margin: 0 auto 15rem auto;
+}

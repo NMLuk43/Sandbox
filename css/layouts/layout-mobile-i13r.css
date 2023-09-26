@@ -1,0 +1,19 @@
+/* layout */
+
+.header-page {
+    background-image: url("../../imgs/page-hero-mobile.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.iphone-review__img-mobile {
+    margin-inline: auto;
+}
+
+.page-title {
+    margin: 5rem auto 2.5rem auto;
+}
+
+body {
+    line-height: 3rem;
+}

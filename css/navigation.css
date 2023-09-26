@@ -1,0 +1,65 @@
+/* mobile */
+
+.logo {
+   margin: auto auto auto 0;
+   padding-top: 2.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    max-width: var(--width--mobile);
+    padding: 2.5rem auto auto auto;
+    margin-inline: auto;
+}
+
+.nav__list {
+    display: none;
+}
+
+.nav__mobile {
+    margin: auto 0 auto auto;
+    padding-top: 2rem;
+    width: 3.7rem;
+    height: 3rem;
+}
+
+/* tablet */
+
+@media screen and (min-width: 720px) {
+
+.logo {
+    padding-top: 2.5rem;
+}
+
+nav {
+    max-width: var(--width--tablet);
+    margin-inline: auto;
+}
+
+.nav__mobile {
+    display: none;
+}
+
+.nav__item {
+    margin: 2.5rem 0 auto 3rem;
+    padding-top: 5rem;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem 0 auto auto;
+}
+
+}
+
+/* desktop */ 
+
+@media screen and (min-width: 1080px) {
+
+nav {
+    max-width: var(--width--desktop);
+}
+
+}

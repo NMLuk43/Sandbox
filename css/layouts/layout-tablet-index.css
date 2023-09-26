@@ -1,0 +1,82 @@
+@media screen and (min-width: 720px) {
+
+/* hidden items */
+.img-mobile {
+    display: none;
+}
+
+
+/* displayed items */
+.img-tablet {
+    display: flex;
+    margin-inline: auto;
+}
+
+/* layout */
+header {
+    background-image: url("../../imgs/hero-home-tablet.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.hero-home__CTA {
+    display: flex;
+    margin-inline: auto;
+    max-width: 51rem;
+}
+
+.hero-home__CTA p {
+    max-width: 39rem;
+}
+
+.hero-home__inner {
+    max-width: var(--width--tablet);
+    margin-inline: auto;
+}
+
+main {
+    margin-inline: auto;
+    max-width: var(--width--tablet);
+}
+
+.recent-reviews__review {
+    max-width: 51rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.recent-reviews__inner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+
+.recent-reviews__img {
+    margin: 0 auto auto auto;
+}
+
+.recent-reviews__inner p {
+    margin: 0 1.5rem auto 1.5rem;
+}
+
+.tech-news p {
+ max-width: 40rem; 
+ margin-inline: auto;
+}
+
+.techtreat-features {
+    margin-inline: auto;
+}
+
+.techtreat-features__feature {
+    margin-inline: .5rem;
+}
+
+.techtreat-features__copy {
+    display: flex;
+    flex-wrap: row;
+}
+
+}

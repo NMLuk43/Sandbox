@@ -1,0 +1,55 @@
+@media screen and (min-width: 1080px) {
+/* hidden items */
+.img-tablet {
+    display: none;
+}
+
+/* displayed items */
+.img-desktop {
+    display: flex;
+}
+
+/* layout */
+header {
+ background-image: url("../../imgs/hero-home-desktop.png");
+ height: 77.5rem;
+}
+
+.hero-home__inner {
+    max-width: var(--width--desktop);
+    margin: 17rem auto auto auto; 
+}
+
+.hero-home__CTA {
+    max-width: 60rem;
+    margin-top: 3rem;
+}
+
+.hero-home__CTA p {
+    max-width: 44rem;
+    margin-right: 2.5rem;
+}
+
+main {
+    max-width: var(--width--desktop);
+}
+
+.recent-reviews__review-list {
+display: flex;
+flex-direction: row;
+}
+
+.tech-news p {
+    max-width: var(--width--desktop);
+}
+
+.techtreat-features__copy {
+    margin-inline: auto;
+    justify-content: space-between;
+}
+
+.techtreat-features__copy p {
+    max-width: 31rem;
+}
+
+}
