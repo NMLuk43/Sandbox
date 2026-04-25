@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Snipd",
+    "slug": "snipd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a12"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.snipd",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Snipd needs microphone access for audio playback.",
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a12"
+      },
+      "package": "com.yourname.snipd"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Snipd to access your microphone."
+        }
+      ]
+    ],
+    "scheme": "snipd",
+    "extra": {
+      "apiBaseUrl": "http://localhost:3000"
+    }
+  }
+}
